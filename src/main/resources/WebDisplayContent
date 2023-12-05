@@ -1,0 +1,10 @@
+With this configuration, the MySessionListener class will be notified of session creation and destruction events in your web application, and the specified methods will be called accordingly.
+
+Common use cases for session listeners include:
+
+Initializing session-specific data when a new session is created.
+Tracking active sessions for monitoring purposes.
+Cleaning up resources or performing logout actions when a session is destroyed.
+Implementing session timeout handling.
+Managing user authentication and authorization state.
+Session listeners are a powerful tool for managing and maintaining session-related tasks in your web application.
